@@ -1,2 +1,8 @@
 Revision history for MooX-CalcTime
 
+0.0.1 2016-07-27T07:58:37
+ [Yan Xueqing]
+ - Added test file for moox-calctime
+ - Added moox-calctime module
+ - Added moox-calctime-role module
+ - Initialize gitrepo with `dzil new`
