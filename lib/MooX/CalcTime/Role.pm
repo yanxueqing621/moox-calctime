@@ -9,7 +9,7 @@ use Moo::Role;
 
   package AA;
 
-  with 'MooX::Role::Time';
+  with 'MooX::CalcTime::Role';
 
   sub run {
     my $self = shift;

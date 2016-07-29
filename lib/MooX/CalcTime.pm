@@ -18,7 +18,7 @@ with 'MooX::CalcTime::Role';
   $t->get_run_second;
 
   # return a string such as 'Running time: 3 days 2 minutes 1 hours 10 minutes 5 second';
-  $t->get_runtime_format; # return a variable: '3 days 2 hours 1 minute'
+  $t->get_runtime_format;
 
   # print return value of C<get_runtime_format> function
   $t->print_runtime;
