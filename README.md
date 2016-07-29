@@ -4,7 +4,7 @@ MooX::CalcTime - This is a instantial object of MooX::CalcTime::Role
 
 # VERSION
 
-version 0.0.1
+version 0.0.2
 
 # SYNOPSIS
 
@@ -17,7 +17,7 @@ version 0.0.1
     $t->get_run_second;
 
     # return a string such as 'Running time: 3 days 2 minutes 1 hours 10 minutes 5 second';
-    $t->get_runtime_format; # return a variable: '3 days 2 hours 1 minute'
+    $t->get_runtime_format;
 
     # print return value of C<get_runtime_format> function
     $t->print_runtime;
@@ -32,7 +32,7 @@ please see [MooX::CalcTime::Role](https://metacpan.org/pod/MooX::CalcTime::Role)
 
 # AUTHOR
 
-Yan Xueqing &lt;yanxueqing621@163.com>
+Yan Xueqing <yanxueqing621@163.com>
 
 # COPYRIGHT AND LICENSE
 
