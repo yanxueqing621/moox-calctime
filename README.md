@@ -4,7 +4,7 @@ MooX::CalcTime - This is a instantial object of MooX::CalcTime::Role
 
 # VERSION
 
-version 0.0.2
+version 0.0.3
 
 # SYNOPSIS
 
