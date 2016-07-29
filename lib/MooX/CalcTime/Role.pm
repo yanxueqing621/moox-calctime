@@ -62,7 +62,11 @@ sub get_runtime_format {
   my $total_hour    = int ($total_minute / 60);
   my $hour          = $total_hour % 60;
   my $day           = int($total_hour / 24);
-  my $msg = "Running time: $day days $hour hours $minute minutes $second second\n";
+  my $start = DateTime->from_epoch(epoch => $_[0]->_time_start);
+  my $end   = DateTime->now;
+  my $msg   = "Starting time: $start\n";
+  $msg .= "Ending time: $end\n";
+  $msg .= "Running time: $day days $hour hours $minute minutes $second second\n";
   return $msg;
 }
 
