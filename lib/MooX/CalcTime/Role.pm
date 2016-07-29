@@ -1,6 +1,7 @@
 package MooX::CalcTime::Role;
 use Modern::Perl;
 use Moo::Role;
+use DateTime;
 
 # VERSION
 # ABSTRACT: calculate total time that a program run
