@@ -48,14 +48,14 @@ sub get_run_second  {
   time - $_[0]->_time_start;
 }
 
-=head2 get_runtime_format
+=head2 get_runtime
 
 get total seconds, which passed from consumer class initialize to now, in a format
 of 'Running time: 8 days 4 hours 3 minutes 30 seconds'.
 
 =cut
 
-sub get_runtime_format {
+sub get_runtime {
   my $interval      = $_[0]->get_run_second;
   my $second        = $interval % 60;
   my $total_minute  = int ($interval / 60);
