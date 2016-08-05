@@ -18,7 +18,7 @@ use DateTime;
     $self->get_run_second;
 
     # return a string such as 'Running time: 3 days 2 minutes 1 hours 10 minutes 5 second';
-    $self->get_runtime_format; # return a variable: '3 days 2 hours 1 minute'
+    $self->get_runtime; # return a variable: '3 days 2 hours 1 minute'
 
     # print return value of 'get_runtime_format' function
     $self->print_runtime;
