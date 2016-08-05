@@ -1,6 +1,10 @@
 Revision history for MooX-CalcTime
 
-0.0.7 2016-08-05T08:03:49
+0.0.8 2016-08-05T08:26:11
+ [Yan Xueqing]
+ - Fixed running bug
+
+0.0.7 2016-08-05T08:03:49Z
  [Yan Xueqing]
  - Modified synopsis
 
