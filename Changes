@@ -1,6 +1,10 @@
 Revision history for MooX-CalcTime
 
-0.0.5 2016-07-29T05:37:58
+0.0.6 2016-08-05T06:51:34
+ [Yan Xueqing]
+ - Replaced get_runtime_format with get_runtime
+
+0.0.5 2016-07-29T05:37:58Z
  [Yan Xueqing]
  - Fixed bug that forget to load DateTime too
 
