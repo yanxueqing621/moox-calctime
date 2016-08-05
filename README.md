@@ -4,7 +4,7 @@ MooX::CalcTime - This is a instantial object of MooX::CalcTime::Role
 
 # VERSION
 
-version 0.0.6
+version 0.0.7
 
 # SYNOPSIS
 
@@ -17,7 +17,7 @@ version 0.0.6
     $t->get_run_second;
 
     # return a string such as 'Running time: 3 days 2 minutes 1 hours 10 minutes 5 second';
-    $t->get_runtime_format;
+    $t->get_runtime;
 
     # print return value of C<get_runtime_format> function
     $t->print_runtime;
