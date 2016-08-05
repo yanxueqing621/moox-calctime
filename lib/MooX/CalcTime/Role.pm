@@ -79,7 +79,7 @@ of 'Running time: 8 days 4 hours 3 minutes 30 seconds'.
 =cut
 
 sub print_runtime {
-  say $_[0]->get_runtime_format;
+  say $_[0]->get_runtime;
 }
 
 
